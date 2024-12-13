@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <title>Skibidi Clicker</title>
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@beta/dist/js.cookie.min.js"></script>
+  </head>
+
+  <body>
+    <p id="cash">0 Skibidi's</p>
+    <div class="skibidi">
+      <img src="ski.png" class="click" onclick="skibidiclicked()" />
+    </div>
+    <div class="upcontain">
+      <div class="upitem">
+        <p class="leveltext" id="up1"></p>
+        <img src="up1.png" class="upimg" alt="Upgrade 1" onclick="up1()" />
+        <h1 class="uptext">
+          Cursor<br />
+          +1 Per Click<br />
+          <div id="upprice">$<span id="skibidi-count"></span> Skibidi's</div>
+        </h1>
+      </div>
+      <div class="upitem">
+        <p class="leveltext" id="up2"></p>
+        <img src="up2.png" class="upimg" alt="Upgrade 2" onclick="up2()" />
+        <h1 class="uptext">
+          Golden Toilet<br />
+          +5 Per Second<br />
+          $150 Skibidis
+        </h1>
+      </div>
+      <div class="upitem">
+        <p class="leveltext" id="up3"></p>
+        <img src="up3.png" class="upimg" alt="Upgrade 3" onclick="up3()" />
+        <h1 class="uptext">
+          Toilet Factory<br />
+          +50 Per Second <br />
+          $1000 Skibidis
+        </h1>
+      </div>
+      <!-- Add more items as needed -->
+    </div>
+    <!--<button class="Reset" onclick="restart()">Reset Progress</button>-->
+    <footer>
+      <div class="foot">
+        <a title="My Github" href="https://github.com/xfi0">Github | Xfi0</a>
+        <a title="Thanks for helping">Thanks For The Ideas</a>
+        <a
+          title="The official github for Skibidi Clicker"
+          href="https://github.com/Xfi0/Skibidi-Clicker"
+          >Skibidi Clicker | Github</a
+        >
+        <a title="License information" href="credits.html">Credits</a>
+      </div>
+      <div>
+        <span>Amethyst &copy; LN 2024</span>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
