@@ -36,8 +36,8 @@ body {
 }
 .upcontain {
   display: flex;
-  flex-direction: column; /* Arrange children in a vertical column */
-  align-items: flex-start; /* Align items to the start of the container */
+  flex-direction: column;
+  align-items: flex-start;
   position: absolute;
   right: 0;
   top: 0;
@@ -46,8 +46,8 @@ body {
 
 .upitem {
   display: flex;
-  align-items: center; /* Center text vertically with the image */
-  margin-bottom: 10px; /* Add space between each item */
+  align-items: center;
+  margin-bottom: 10px; 
 }
 
 .upimg {
@@ -55,7 +55,7 @@ body {
   max-width: 90px;
   display: block;
   overflow: hidden;
-  margin-right: 10px; /* Add space between image and text */
+  margin-right: 10px; 
   position: relative;
 }
 
@@ -78,40 +78,40 @@ body {
   font-family: Futura;
   color: white;
   font-size: 21px;
-  margin: 0; /* Remove default margin */
+  margin: 0; 
 }
 .leveltext {
   font-family: Futura;
   color: white;
   font-size: 33px;
   font-weight: bold;
-  margin: 0; /* Remove default margin */
+  margin: 0;
 }
 #skibidi-count {
   font-family: Futura;
   color: white;
   font-size: 25px;
   font-weight: bold;
-  margin: 0; /* Remove default margin */
+  margin: 0; 
 }
 #upprice {
   font-family: Futura;
   color: white;
   font-size: 25px;
   font-weight: bold;
-  margin: 0; /* Remove default margin */
+  margin: 0; 
 }
 footer {
   margin-top: auto;
-  padding: 10px; /* Optional: Add some padding */
-  text-align: center; /* Center the text */
-  color: #fff; /* Ensure text is visible */
+  padding: 10px; 
+  text-align: center; 
+  color: #fff; 
 }
 
 .foot {
   display: flex;
   justify-content: center;
-  gap: 15px; /* Space between the links */
+  gap: 15px; 
 }
 
 footer a {
@@ -122,3 +122,4 @@ footer a {
 footer a:hover {
   text-decoration: underline;
 }
+
